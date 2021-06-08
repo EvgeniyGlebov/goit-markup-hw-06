@@ -792,6 +792,7 @@ img {
 
 .subscribe-section-form-button {
   display: inline-block;
+  vertical-align: middle;
   justify-content: center;
   align-items: center;
   font-weight: 700;
@@ -811,7 +812,6 @@ img {
   text-align: center;
   margin: auto;
 
-  border-radius: 10px;
   border: none;
   cursor: pointer;
 
@@ -826,8 +826,8 @@ img {
 }
 
 .subscribe-section-form-button-svg {
-  justify-content: center;
-  align-items: center;
+  vertical-align: middle;
+
   width: 24px;
   height: 24px;
   margin-left: 10px;
