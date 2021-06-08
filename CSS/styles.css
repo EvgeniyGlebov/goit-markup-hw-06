@@ -1089,7 +1089,8 @@ img {
   content: "";
   width: 18px;
   height: 18px;
-  border: 1px solid #000;
+  margin-right: 10px;
+
   cursor: pointer;
   outline: 1px solid #000;
 }
