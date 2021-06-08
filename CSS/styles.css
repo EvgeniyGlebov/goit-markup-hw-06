@@ -1063,7 +1063,7 @@ img {
 }
 
 .modal-form-checkbox-policy {
-  display:
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -1097,7 +1097,11 @@ img {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
-  background-image: url(../images/modal/icon\ check.svg);
+  background-image: url(../images/modal/icon\ check.svg) ;
+  outline: none;
+  border: none;
+  width: 16px;
+  height: 15px;
 }
 
 .modal-form-btn {
