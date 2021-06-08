@@ -1068,7 +1068,7 @@ img {
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
-  width: auto;
+  align-items: center;
 }
 
 .modal-form-checkbox-policy-link {
