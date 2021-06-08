@@ -397,6 +397,47 @@
         <use href="./images/sprite.svg#icon-close-black-18dp-2-1"> </use>
     </svg>
         </button>
+        <form class="modal-form">
+<p class="modal-form-head"> Оставьте свои данные, мы вам перезвоним</p>
+<label class="modal-form-field">
+Имя
+<span class="modal-form-input-wrapper">
+<input type="text" name="user-name" class="modal-form-input" minlength="2" required placeholder="Имя">
+<svg class="modal-form-input-icon">
+    <use href="./images/sprite.svg#icon-person-black-18dp-1"> </use>
+</svg>
+</span>
+</label>
+
+<label class="modal-form-field">
+    Телефон
+    <span class="modal-form-input-wrapper">
+    <input type="tel" name="user-phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="096-111-11-11" placeholder="096-111-11-11">
+<svg class="modal-form-input-icon">
+    <use href="./images/sprite.svg#icon-phone-black-18dp-1"> </use>
+</svg>
+</span>
+</label>
+
+<label class="modal-form-field">
+    Почта
+    <span class="modal-form-input-wrapper">
+    <input type="text" name="user-email" class="modal-form-input" required  placeholder="username@mail.com">
+<svg class="modal-form-input-icon">
+    <use href="./images/sprite.svg#icon-email-black-18dp-1"> </use>
+</svg>
+</span>
+</label>
+
+<label class="modal-form-field">
+    Комментарий
+    <textarea name="user-comments" id="" class="modal-form-comments" cols="30" rows="10" placeholder="Введите текст"></textarea>
+
+</label> 
+<input type="checkbox" name="user-pilicy" class="modal-form-checkbox" class="visually-hidden" id="checkbox-policy">
+<label for="checkbox-policy" class="modal-form-checkbox-policy">Соглашаюсь с рассылкой и принимаю <a class="modal-form-checkbox-policy-link" href="">Условия договора</a>  </label>
+<button type="submit" class="modal-form-btn">Отправить</button> 
+        </form>
             </div>
     </div>
 
