@@ -1063,6 +1063,7 @@ img {
 }
 
 .modal-form-checkbox-policy {
+  display:
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -1087,8 +1088,8 @@ img {
   display: inline-block;
   vertical-align: middle;
   content: "";
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 15px;
   margin-right: 10px;
 
   cursor: pointer;
