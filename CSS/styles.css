@@ -1023,6 +1023,10 @@ img {
   top: 8px;
   right: 8px;
   padding: 0;
+
+  transition-property: fill;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
 }
 
 .modal-close-btn-svg:hover {
