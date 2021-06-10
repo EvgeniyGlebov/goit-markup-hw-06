@@ -1024,6 +1024,10 @@ img {
   right: 8px;
   padding: 0;
 }
+
+.modal-close-btn-svg:hover {
+  fill: var(--hover-color);
+}
 .modal-close-btn-svg {
   color: #000;
   width: 18px;
@@ -1135,6 +1139,7 @@ img {
 }
 
 .modal-form-checkbox-policy {
+  text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
